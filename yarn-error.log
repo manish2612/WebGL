@@ -1,0 +1,83 @@
+Arguments: 
+  /Users/mahajman/.nvm/versions/node/v12.22.12/bin/node /Users/mahajman/.nvm/versions/node/v12.22.12/bin/yarn
+
+PATH: 
+  /Users/mahajman/.nvm/versions/node/v12.22.12/bin:/Users/mahajman/.cargo/bin:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.12
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mahajman/Development/poc/Portfolio/package.json: Unexpected token } in JSON at position 1411
+      at JSON.parse (<anonymous>)
+      at /Users/mahajman/.nvm/versions/node/v12.22.12/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/mahajman/.nvm/versions/node/v12.22.12/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/mahajman/.nvm/versions/node/v12.22.12/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Manish Mahajan WEBGL portfolio",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Manish",
+      "Mahajan",
+      "WebGL",
+      "portfolio"
+    ],
+    "author": "Manish Mahajan",
+    "license": "ISC",
+    "devDependencies": {
+      "auto-bind": "^4.0.0",
+      "autoprefixer": "^10.2.4",
+      "babel-eslint": "^10.1.0",
+      "babel-loader": "^8.2.2",
+      "clean-webpack-plugin": "^3.0.0",
+      "concurrently": "^5.3.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^5.0.1",
+      "cssnano": "^4.1.10",
+      "dat.gui": "^0.7.7",
+      "eslint": "^7.18.0",
+      "eslint-config-standard": "^16.0.2",
+      "eslint-plugin-flowtype": "^5.2.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-standard": "^5.0.0",
+      "file-loader": "^6.2.0",
+      "glslify-loader": "^2.0.0",
+      "gsap": "^3.6.0",
+      "html-webpack-plugin": "^4.5.2",
+      "lodash": "^4.17.20",
+      "mini-css-extract-plugin": "^1.3.5",
+      "node-sass": "^5.0.0",
+      "normalize-wheel": "^1.0.1",
+      "ogl": "0.0.61",
+      "postcss": "^8.2.4",
+      "postcss-loader": "^4.1.0",
+      "pug-loader": "^2.4.0",
+      "raw-loader": "^4.0.2",
+      "sass-loader": "^10.1.1",
+      "webpack": "^5.19.0",
+      "webpack-dev-server": "^3.11.2",
+      "webpack-merge": "^5.7.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
