@@ -152,7 +152,7 @@ export default class App {
   }
 
   /**
-   * Update.
+   * Update
    */
   update (t) {
 
